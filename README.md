@@ -16,11 +16,13 @@ Backend for an e-commerce site
 ## Install
 
 ```
+
 ```
 
 ## Usage
 
 ```
+
 ```
 
 ## API
@@ -38,3 +40,19 @@ Small note: If editing the README, please conform to the [standard-readme](https
 ## License
 
 MIT © 2022 Sanket2055
+
+# API endpoints
+
+These endpoints allow you to ..........
+
+## GET
+
+`official client only` [/order/id](#get-orderid) <br/>
+`official client only` [/orders/me](#get-user-orders) <br/>
+
+## POST
+
+`official client only` [/order/new](#post-neworder) <br/>
+`official client only` [/Admin/product/new](#does-something) <br/>
+
+---
