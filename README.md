@@ -7,7 +7,6 @@ Backend for an e-commerce site
 ## Table of Contents
 
 - [Install](#install)
-- [Usage](#usage)
 - [API](#api)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
@@ -16,20 +15,26 @@ Backend for an e-commerce site
 ## Install
 
 ```
+<<<<<<< HEAD
 
+=======
+npm i 
+>>>>>>> d0666353f088e3150ed1bff340b05d3ac335627f
 ```
 
-## Usage
 
+<<<<<<< HEAD
 ```
 
 ```
+=======
+>>>>>>> d0666353f088e3150ed1bff340b05d3ac335627f
 
 ## API
 
 ## Maintainers
 
-[@https://github.com/Sanket2055](https://github.com/https://github.com/Sanket2055)
+[@Sanket2055](https://github.com/Sanket2055)
 
 ## Contributing
 
