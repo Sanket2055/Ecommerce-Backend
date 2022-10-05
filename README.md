@@ -7,7 +7,6 @@ Backend for an e-commerce site
 ## Table of Contents
 
 - [Install](#install)
-- [Usage](#usage)
 - [API](#api)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
