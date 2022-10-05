@@ -18,11 +18,9 @@ Backend for an e-commerce site
 
 
 
-npm i 
+npm i
 
 ```
-
-
 
 ## API
 
@@ -46,12 +44,39 @@ These endpoints allow you to ..........
 
 ## GET
 
-`official client only` [/order/id](#get-orderid) <br/>
+`official client only` [/order/:id](#get-orderid) <br/>
 `official client only` [/orders/me](#get-user-orders) <br/>
+`official client only` [/admin/orders](#get-user-os) <br/>
+`official client only` [/product](#show-products) <br/>
+`official client only` [/product/:id](#get-productid) <br/>
+`official client only` [/logout](#logout-user) <br/>
+`official client only` [/me](#me) <br/>
+`official client only` [/admin/users](#admin) <br/>
+`official client only` [/admin/users/:id](#admin) <br/>
+`official client only` [/Reviw](#leave-revies) <br/>
 
 ## POST
 
 `official client only` [/order/new](#post-neworder) <br/>
+`official client only` [/register](#register-user) <br/>
+`official client only` [/login](#login-in) <br/>
+`official client only` [/password/forgot](#forgot-password) <br/>
 `official client only` [/Admin/product/new](#does-something) <br/>
+
+## Put
+
+`official client only` [/order/new](#post-neworder) <br/>
+`official client only` [/Admin/order/:id](#get-id) <br/>
+`official client only` [/password/reset/:token](#gives-reset-token) <br/>
+`official client only` [/UpdatePassword](#updatePassword) <br/>
+`official client only` [/meUpdate](#updateme) <br/>
+`official client only` [/admin/users/:id](#admin) <br/>
+
+## Delete
+
+`official client only` [/admin/users/:id](#admin) <br/>
+`official client only` [/admin/users/:id](#admin) <br/>
+`official client only` [/Reviw](#leave-revies) <br/>
+`official client only` [/Admin/order/:id](#get-id) <br/>
 
 ---
