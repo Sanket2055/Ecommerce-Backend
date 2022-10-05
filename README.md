@@ -53,7 +53,7 @@ These endpoints allow you to ..........
 `official client only` [/me](#me) <br/>
 `official client only` [/admin/users](#admin) <br/>
 `official client only` [/admin/users/:id](#admin) <br/>
-`official client only` [/Reviw](#leave-revies) <br/>
+`official client only` [/Review](#leave-revies) <br/>
 
 ## POST
 
@@ -76,7 +76,7 @@ These endpoints allow you to ..........
 
 `official client only` [/admin/users/:id](#admin) <br/>
 `official client only` [/admin/users/:id](#admin) <br/>
-`official client only` [/Reviw](#leave-revies) <br/>
+`official client only` [/Review](#leave-revies) <br/>
 `official client only` [/Admin/order/:id](#get-id) <br/>
 
 ---
