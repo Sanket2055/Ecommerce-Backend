@@ -15,20 +15,14 @@ Backend for an e-commerce site
 ## Install
 
 ```
-<<<<<<< HEAD
+
 
 =======
 npm i 
->>>>>>> d0666353f088e3150ed1bff340b05d3ac335627f
+
 ```
 
 
-<<<<<<< HEAD
-```
-
-```
-=======
->>>>>>> d0666353f088e3150ed1bff340b05d3ac335627f
 
 ## API
 
