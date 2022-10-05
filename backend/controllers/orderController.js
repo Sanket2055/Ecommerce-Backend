@@ -3,7 +3,7 @@ const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const User = require("../models/userModel");
 const cloudinary = require("cloudinary");
-const sendToken = require("../utils/JWTtoken");
+const sendToken = require("../utils/jwtToken");
 const sendEmail = require("../utils/sendEmail.js");
 const crypto = require("crypto");
 const Product = require("../models/productModel");
@@ -81,11 +81,11 @@ exports.updateOrder = catchAsyncErrors(async (req, res, next) => {
     return next(new ErrorHandler("Order already delivered", 404));
   }
   order.orderItems.forEach(async (order) => {
-    await updateStock(order.product  , order.quantity);
+    await updateStock(order.product, order.quantity);
   });
 
   order.orderStatus = req.body.status;
-  if(req.body.status === "Delivered"){
+  if (req.body.status === "Delivered") {
     order.deliveredAt = Date.now();
   }
   await order.save({
@@ -96,7 +96,7 @@ exports.updateOrder = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-async function updateStock(id , quantity){
+async function updateStock(id, quantity) {
   const product = await Product.findById(id);
   product.Stock -= quantity;
   await product.save({
@@ -110,8 +110,8 @@ exports.deleteOrder = catchAsyncErrors(async (req, res, next) => {
   if (!order) {
     return next(new ErrorHandler("No order found with this id ☹", 404));
   }
-  await order.remove(); 
-  
+  await order.remove();
+
   res.status(200).json({
     success: true,
   });

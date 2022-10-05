@@ -2,7 +2,7 @@ const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const User = require("../models/userModel");
 const cloudinary = require("cloudinary");
-const sendToken = require("../utils/JWTtoken");
+const sendToken = require("../utils/jwtToken");
 const sendEmail = require("../utils/sendEmail.js");
 const crypto = require("crypto");
 // Register a User
@@ -24,7 +24,7 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
       url: "dsfasdf",
     },
   });
-  const token = user.getJWTToken();
+  const token = user.getjwtToken();
   sendToken(user, 201, res);
 });
 
