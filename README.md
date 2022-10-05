@@ -24,7 +24,7 @@ npm i
 
 ## Maintainers
 
-[@https://github.com/Sanket2055](https://github.com/https://github.com/Sanket2055)
+[@Sanket2055](https://github.com/Sanket2055)
 
 ## Contributing
 
