@@ -16,12 +16,10 @@ Backend for an e-commerce site
 ## Install
 
 ```
+npm i 
 ```
 
-## Usage
 
-```
-```
 
 ## API
 
